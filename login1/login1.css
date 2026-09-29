@@ -1,0 +1,85 @@
+body {
+  /*background: radial-gradient(circle at 50% 20% , #8338ec 0%, #3a0ca3 40%, #c77dff 70%, #e0f2fe 100%);*/
+  background: linear-gradient(90deg, #a7709b 0%, #7f966a 40%, #745392 100%);
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+.content {
+  background: linear-gradient(90deg, #74813b 0%, #f0af7b 40%, #d8e943 100%);
+  margin: 100px 470px;
+  width: 350px;
+  height: 450px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  text-align: center;
+}
+#user {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+#pass {
+  height: 28px;
+  width: 28px;
+  padding-left: 2px;
+  padding-bottom: 1px;
+}
+#mail {
+  height: 35px;
+  width: 40px;
+}
+.user,
+.password {
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  border-bottom: 1px solid black;
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.user input,
+.password input {
+  outline: none;
+  border: none;
+  color: rgb(30, 96, 153);
+  background-color: transparent;
+  width: 100%;
+  font-size: medium;
+}
+input::placeholder {
+  color: rgb(48, 50, 51);
+}
+.nav {
+  margin-bottom: 30px;
+  font-size: small;
+}
+.nav input[type="checkbox"] {
+  cursor: pointer;
+}
+#forget {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: small;
+  color: #b51c17;
+}
+#forget:hover {
+  color: #17b52c;
+}
+#btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(#728a1b 0%, #7e8634 40%, #b7f04c 100%);
+  height: 40px;
+  width: 100px;
+  font-size: medium;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+#btn:hover {
+  background: linear-gradient( #d7ec8b 0%, #b6aa3c 40%, #ad5d44 100%);
+  transform: scale(1.08);
+}
